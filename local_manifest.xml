@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Kernel Tree (branch 15) -->
+  <project name="clarencekopitiam/kernel_xiaomi_sm6250" path="kernel/xiaomi/sm6250" remote="github" revision="15" />
+
+  <!-- Vendor Tree (branch lineage-21.0) -->
+  <project name="clarencekopitiam/vendor_xiaomi_miatoll" path="vendor/xiaomi/miatoll" remote="github" revision="lineage-21.0" />
+
+  <!-- hardware/xiaomi -->
+  <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-21.0" />
+
+  <!-- hardware/sony/timekeep -->
+  <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="lineage-21.0" />
+
+  <!-- vendor/xiaomi/miuicamera -->
+  <project name="clarencelol/vendor_xiaomi_miuicamera" path="vendor/xiaomi/miuicamera" remote="github" revision="main" />
+
+  <!-- device/xiaomi/miatoll (branch alpha) -->
+  <project name="MaheshTechnicals/device_xiaomi_miatoll-ev" path="device/xiaomi/miatoll" remote="github" revision="alpha" />
+
+</manifest>
