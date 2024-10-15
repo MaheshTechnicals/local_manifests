@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- Remove the old frameworks/native -->
+  <remove-project name="frameworks_native" />
+
+  <!-- Clone new frameworks/native (branch alpha-14) -->
+  <project name="MaheshTechnicals/frameworks_native-alpha" path="frameworks/native" remote="github" revision="alpha-14" />
+
   <!-- Kernel Tree (branch 15) -->
   <project name="clarencekopitiam/kernel_xiaomi_sm6250" path="kernel/xiaomi/sm6250" remote="github" revision="15" />
 
@@ -18,5 +24,8 @@
 
   <!-- device/xiaomi/miatoll (branch alpha) -->
   <project name="MaheshTechnicals/device_xiaomi_miatoll-ev" path="device/xiaomi/miatoll" remote="github" revision="alpha" />
+
+  <!-- Clone vendor/lineage-priv/keys (branch alpha) -->
+  <project name="MaheshTechnicals/vendor_lineage-priv" path="vendor/lineage-priv/keys" remote="github" revision="alpha" />
 
 </manifest>
