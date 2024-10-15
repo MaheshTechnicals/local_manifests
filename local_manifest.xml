@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- Remove the old frameworks/native -->
+  <!-- Remove frameworks/native -->
   <remove-project name="frameworks_native" />
+
+  <!-- Remove crdroidandroid/android_hardware_xiaomi -->
+  <remove-project name="crdroidandroid/android_hardware_xiaomi" />
 
   <!-- Clone new frameworks/native (branch alpha-14) -->
   <project name="MaheshTechnicals/frameworks_native-alpha" path="frameworks/native" remote="github" revision="alpha-14" />
