@@ -19,12 +19,6 @@
     <!-- Sync Vendor Tree -->
     <project path="vendor/xiaomi/miatoll" name="vendor_xiaomi_miatoll" remote="clarencekopitiam" revision="lineage-21.0" />
 
-    <!-- Sync hardware/xiaomi -->
-    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-21.0" />
-
-    <!-- Sync hardware/sony/timekeep -->
-    <project path="hardware/sony/timekeep" name="android_hardware_sony_timekeep" remote="LineageOS" revision="lineage-21.0" />
-
     <!-- Sync vendor/xiaomi/miuicamera -->
     <project path="vendor/xiaomi/miuicamera" name="vendor_xiaomi_miuicamera" remote="clarencelol" revision="main" />
 
