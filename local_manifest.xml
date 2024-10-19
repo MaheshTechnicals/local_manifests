@@ -10,9 +10,6 @@
     <remove-project name="frameworks_native" />
     <remove-project name="crdroidandroid/android_hardware_xiaomi" />
 
-    <!-- Sync frameworks/native -->
-    <project path="frameworks/native" name="frameworks_native-alpha" remote="MaheshTechnicals" revision="alpha-14" />
-
     <!-- Sync Kernel Tree -->
     <project path="kernel/xiaomi/sm6250" name="kernel_xiaomi_sm6250" remote="clarencekopitiam" revision="15" />
 
